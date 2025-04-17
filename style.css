@@ -22,6 +22,10 @@
   .hero-content .logo {
     max-width: 120px;
     margin-bottom: 1rem;
+    border-radius: 50%; /* makes the image circular */
+    border: 2px solid #415a77; /* optional: adds a stylish border */
+    box-shadow: 0 4px 10px rgba(65, 90, 119, 0.3);
+    padding: 5px;
   }
   
   .hero h1 {
@@ -116,4 +120,3 @@
     margin-bottom: 1rem;
     font-size: 0.9rem;
   }
-  
