@@ -118,8 +118,15 @@ body {
 
 .subtext {
   color: #778da9;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.profit-info {
   margin-bottom: 2.5rem;
   font-size: 1.1rem;
+  color: #00ffcc;
+  font-weight: 600;
 }
 
 .pricing-cards {
@@ -178,6 +185,51 @@ body {
 
 .highlight {
   border: 2px solid #415a77;
+}
+
+/* Testimonials */
+.testimonials {
+  background-color: #1b263b;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  color: #e0e1dd;
+  margin-bottom: 2rem;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.testimonial-card {
+  background-color: #0d1b2a;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(65, 90, 119, 0.2);
+  text-align: left;
+}
+
+.stars {
+  color: #f5c518;
+  margin-bottom: 1rem;
+}
+
+.comment {
+  font-style: italic;
+  color: #e0e1dd;
+  margin-bottom: 1rem;
+}
+
+.author {
+  color: #778da9;
+  font-weight: bold;
 }
 
 /* Footer */
