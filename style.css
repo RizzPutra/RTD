@@ -105,34 +105,72 @@ a {
   color: #778da9;
 }
 
-.pricing-cards {
-  display: flex;
-  justify-content: center;
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 40px;
   margin-top: 40px;
-  flex-wrap: wrap;
+  justify-items: center;
 }
 
-.card {
+.plan-card {
   background-color: #415a77;
   padding: 30px;
-  border-radius: 12px;
-  width: 300px;
-  transition: transform 0.3s ease;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.highlight {
-  background-color: #778da9;
+.plan-card:hover {
+  transform: translateY(-8px);
 }
 
-.price {
-  font-size: 2rem;
-  margin: 20px 0;
-}
-
-.discount {
-  font-size: 1rem;
+.plan-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
   color: #e0e1dd;
+}
+
+.plan-card .price {
+  font-size: 2rem;
+  color: #e0e1dd;
+  margin: 15px 0;
+}
+
+.plan-features {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.plan-features li {
+  margin: 10px 0;
+  color: #e0e1dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.plan-features i {
+  color: #e0e1dd;
+}
+
+.plan-card .discount {
+  display: block;
+  font-size: 0.9rem;
+  color: #e0e1dd;
+  margin-top: 5px;
+}
+
+/* Featured Plan */
+.featured {
+  background-color: #778da9;
+  border: 2px solid #e0e1dd;
+  box-shadow: 0 0 25px rgba(224, 225, 221, 0.3);
 }
 
 /* Testimonials Section */
@@ -224,15 +262,9 @@ a {
     text-align: center;
   }
 
-  .pricing-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card, .highlight {
-    width: 90%;
-    max-width: 400px;
-    margin-bottom: 20px;
+  .pricing-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .testimonial-cards {
