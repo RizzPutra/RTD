@@ -6,7 +6,7 @@
   <title>RTD | Crypto Futures Trading</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="https://kit.fontawesome.com/a2d9d6aa27.js" crossorigin="anonymous"></script> <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/a2d9d6aa27.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -40,7 +40,7 @@
   <div class="container">
     <h1>Master Crypto Futures with RTD</h1>
     <p>Profit between 10% - 90% monthly with smart trading strategies.</p>
-    <a href="#pricing" class="btn">Get Started</a>
+    <a href="#pricing" class="btn pulse">Get Started</a>
   </div>
 </section>
 
@@ -95,6 +95,10 @@
 <footer>
   <div class="container">
     <p>&copy; 2025 RTD Crypto Futures Trading. All rights reserved.</p>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/rizz_trd/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://discord.gg/jmk6nQnrXW" target="_blank"><i class="fab fa-discord"></i></a>
+    </div>
   </div>
 </footer>
 
@@ -107,7 +111,7 @@
     loader.style.visibility = 'hidden';
   });
 
-  // Scroll Reveal Animation
+  // Scroll Reveal
   ScrollReveal().reveal('.card, .testimonial', {
     delay: 200,
     distance: '50px',
@@ -115,12 +119,21 @@
     interval: 200
   });
 
-  // Burger Menu Toggle
+  // Burger Menu
   const menuIcon = document.getElementById('menu-icon');
   const navLinks = document.getElementById('nav-links');
-
   menuIcon.addEventListener('click', () => {
     navLinks.classList.toggle('active');
+  });
+
+  // Smooth Scroll
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
   });
 </script>
 
