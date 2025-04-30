@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>RTD | Crypto Futures Trading</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="https://kit.fontawesome.com/a2d9d6aa27.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<!-- Loading Spinner -->
+<!-- Loader -->
 <div id="loader">
   <div class="spinner"></div>
 </div>
@@ -18,7 +18,7 @@
 <!-- Header -->
 <header>
   <div class="container">
-    <img src="https://i.ibb.co.com/TqqXdV5V/DALL-E-2025-03-27-14-02-10-A-futuristic-logo-with-the-name-RTD-in-the-center-themed-around-cryptocur.webp" alt="RTD Logo" class="logo">
+    <img src="https://i.ibb.co.com/TqqXdV5V/DALL-E-2025-03-27-14-02-10-A-futuristic-logo-with-the-name-RTD-in-the-center-themed-around-cryptocur.webp" alt="RTD Logo" class="logo" />
     <nav>
       <div class="menu-icon" id="menu-icon">
         <i class="fas fa-bars"></i>
@@ -95,7 +95,7 @@
 <footer>
   <div class="container">
     <p>&copy; 2025 RTD Crypto Futures Trading. All rights reserved.</p>
-    <div class="footer-social">
+    <div class="footer-social bottom-icons">
       <a href="https://www.instagram.com/rizz_trd/" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="https://discord.gg/jmk6nQnrXW" target="_blank"><i class="fab fa-discord"></i></a>
     </div>
@@ -105,7 +105,7 @@
 <!-- JavaScript -->
 <script>
   // Loader
-  window.addEventListener('load', function() {
+  window.addEventListener('load', function () {
     const loader = document.getElementById('loader');
     loader.style.opacity = '0';
     loader.style.visibility = 'hidden';
@@ -116,7 +116,7 @@
     delay: 200,
     distance: '50px',
     origin: 'bottom',
-    interval: 200
+    interval: 200,
   });
 
   // Burger Menu
@@ -127,11 +127,11 @@
   });
 
   // Smooth Scroll
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener('click', function (e) {
       e.preventDefault();
       document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     });
   });
