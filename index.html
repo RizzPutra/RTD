@@ -2,140 +2,150 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RTD | Crypto Futures Trading</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RTD - Crypto Futures</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="https://kit.fontawesome.com/a2d9d6aa27.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
 
-<!-- Loader -->
-<div id="loader">
-  <div class="spinner"></div>
-</div>
-
-<!-- Header -->
-<header>
-  <div class="container">
-    <img src="https://i.ibb.co.com/TqqXdV5V/DALL-E-2025-03-27-14-02-10-A-futuristic-logo-with-the-name-RTD-in-the-center-themed-around-cryptocur.webp" alt="RTD Logo" class="logo" />
-    <nav>
-      <div class="menu-icon" id="menu-icon">
-        <i class="fas fa-bars"></i>
-      </div>
-      <ul id="nav-links">
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-      </ul>
-    </nav>
-    <div class="social-icons">
-      <a href="https://www.instagram.com/rizz_trd/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://discord.gg/jmk6nQnrXW" target="_blank"><i class="fab fa-discord"></i></a>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="https://i.ibb.co/TqqXdV5V/DALL-E-2025-03-27-14-02-10-A-futuristic-logo-with-the-name-RTD-in-the-center-themed-around-cryptocur.webp" alt="RTD Logo" class="logo" />
+      <h1>RTD Crypto Futures</h1>
+      <p>Trade smarter. Trade the future. Empowering your crypto journey.</p>
+      <a href="#pricing" class="btn-primary scroll-link">Get Started</a>
     </div>
-  </div>
-</header>
+  </section>
 
-<!-- Hero Section -->
-<section class="hero">
-  <div class="container">
-    <h1>Master Crypto Futures with RTD</h1>
-    <p>Profit between 10% - 90% monthly with smart trading strategies.</p>
-    <a href="#pricing" class="btn pulse">Get Started</a>
-  </div>
-</section>
-
-<!-- Pricing Section -->
-<section class="pricing" id="pricing">
-  <div class="container">
-    <h2>Choose Your Plan</h2>
-    <div class="pricing-cards">
-      <div class="card">
-        <h3>1 Month Access</h3>
-        <p class="price">$16</p>
-        <p>Monthly Signals</p>
-        <p>Profit up to 90%</p>
-        <button class="btn">Subscribe</button>
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Why Choose RTD?</h2>
+    <div class="features-grid">
+      <div class="feature-card reveal">
+        <i class="fas fa-rocket"></i>
+        <h3>Fast Execution</h3>
+        <p>Lightning-fast order placement for efficient trades and minimal slippage.</p>
       </div>
-      <div class="card popular">
-        <h3>3 Month Access</h3>
-        <p class="price">$35 <span class="save">Save $13</span></p>
-        <p>Priority Signals</p>
-        <p>Higher Winning Rate</p>
-        <button class="btn">Subscribe</button>
+      <div class="feature-card reveal">
+        <i class="fas fa-lock"></i>
+        <h3>Secure Platform</h3>
+        <p>Advanced encryption and multi-layer protection for your assets.</p>
+      </div>
+      <div class="feature-card reveal">
+        <i class="fas fa-chart-line"></i>
+        <h3>Real-time Analytics</h3>
+        <p>Live market insights and detailed trade analysis to guide your strategy.</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Testimonials Section -->
-<section class="testimonials" id="testimonials">
-  <div class="container">
+  <!-- Pricing Section -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <h1>Choose Your Plan</h1>
+      <p class="subtext">Simple pricing to start your crypto futures journey</p>
+      <p class="profit-info">Estimated Profit Range: <span>10% – 90% per month</span></p>
+
+      <div class="pricing-cards">
+        <div class="card reveal">
+          <h2>1 Month</h2>
+          <p class="price">$16</p>
+          <ul>
+            <li><i class="fas fa-check"></i> Full platform access</li>
+            <li><i class="fas fa-check"></i> Real-time market updates</li>
+            <li><i class="fas fa-check"></i> 24/7 Support</li>
+          </ul>
+          <a href="#" class="btn-primary">Choose Plan</a>
+        </div>
+
+        <div class="card highlight reveal">
+          <h2>3 Months</h2>
+          <p class="price">$35 <span class="discount">(Save $13)</span></p>
+          <ul>
+            <li><i class="fas fa-check"></i> Full platform access</li>
+            <li><i class="fas fa-check"></i> Real-time market updates</li>
+            <li><i class="fas fa-check"></i> Priority support</li>
+          </ul>
+          <a href="#" class="btn-primary">Choose Plan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
     <h2>What Our Traders Say</h2>
     <div class="testimonial-cards">
-      <div class="testimonial">
-        <p>"RTD signals are accurate and helped me increase my portfolio!"</p>
-        <div class="stars">★★★★★</div>
-        <span>- Daniel K.</span>
+      <div class="testimonial-card reveal">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="comment">"RTD has transformed the way I trade crypto futures. Super intuitive and reliable platform."</p>
+        <p class="author">– Alex M., Full-time Trader</p>
       </div>
-      <div class="testimonial">
-        <p>"Best trading experience. I made 50% gains within a month."</p>
-        <div class="stars">★★★★★</div>
-        <span>- Sophia L.</span>
+      <div class="testimonial-card reveal">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="comment">"I’ve been making consistent profits every month. Great support and tools!"</p>
+        <p class="author">– Sarah K., Crypto Enthusiast</p>
       </div>
-      <div class="testimonial">
-        <p>"Clear, consistent signals. Excellent support via Instagram."</p>
-        <div class="stars">★★★★★</div>
-        <span>- Michael B.</span>
+      <div class="testimonial-card reveal">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p class="comment">"From 10% to over 80% monthly gains. The analytics are pure gold!"</p>
+        <p class="author">– Mike D., Entrepreneur</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Footer -->
-<footer>
-  <div class="container">
-    <p>&copy; 2025 RTD Crypto Futures Trading. All rights reserved.</p>
-    <div class="footer-social bottom-icons">
-      <a href="https://www.instagram.com/rizz_trd/" target="_blank"><i class="fab fa-instagram"></i></a>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 RTD Futures. All rights reserved.</p>
+    <div class="socials">
       <a href="https://discord.gg/jmk6nQnrXW" target="_blank"><i class="fab fa-discord"></i></a>
+      <a href="https://www.instagram.com/rizz_trd/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- JavaScript -->
-<script>
-  // Loader
-  window.addEventListener('load', function () {
-    const loader = document.getElementById('loader');
-    loader.style.opacity = '0';
-    loader.style.visibility = 'hidden';
-  });
-
-  // Scroll Reveal
-  ScrollReveal().reveal('.card, .testimonial', {
-    delay: 200,
-    distance: '50px',
-    origin: 'bottom',
-    interval: 200,
-  });
-
-  // Burger Menu
-  const menuIcon = document.getElementById('menu-icon');
-  const navLinks = document.getElementById('nav-links');
-  menuIcon.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
-
-  // Smooth Scroll
-  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth',
+  <!-- Scripts -->
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a.scroll-link').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
       });
     });
-  });
-</script>
+
+    // Scroll reveal effect
+    function reveal() {
+      const reveals = document.querySelectorAll(".reveal");
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const elementTop = reveals[i].getBoundingClientRect().top;
+        const elementVisible = 150;
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        }
+      }
+    }
+
+    window.addEventListener("scroll", reveal);
+    reveal(); // To show elements if already in view on load
+  </script>
 
 </body>
 </html>
