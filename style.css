@@ -106,11 +106,11 @@ a {
 }
 
 .pricing-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 40px;
-  margin-top: 40px;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .plan-card {
@@ -118,7 +118,7 @@ a {
   padding: 30px;
   border-radius: 16px;
   width: 100%;
-  max-width: 320px;
+  max-width: 300px;
   text-align: center;
   transition: all 0.3s ease;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
@@ -263,8 +263,8 @@ a {
   }
 
   .pricing-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .testimonial-cards {
