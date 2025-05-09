@@ -123,9 +123,7 @@
         const targetId = this.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
-          targetElement.scrollIntoView({
-            behavior: 'smooth'
-          });
+          targetElement.scrollIntoView({ behavior: 'smooth' });
         }
       });
     });
@@ -144,7 +142,7 @@
     }
 
     window.addEventListener("scroll", reveal);
-    reveal(); // To show elements if already in view on load
+    reveal();
   </script>
 
 </body>
