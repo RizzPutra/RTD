@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f2f2f2; /* Light background for Bitcoin theme */
-  color: #333; /* Dark text for contrast */
+  background-color: #0d1b2a;
+  color: #e0e1dd;
   line-height: 1.6;
 }
 
@@ -18,12 +18,12 @@ a {
 }
 
 h1, h2, h3 {
-  color: #ff9900; /* Bitcoin orange */
+  color: rgb(255, 255, 255);
 }
 
 /* Hero Section */
 .hero {
-  background-color: #1b263b; /* Dark background */
+  background-color: #1b263b;
   text-align: center;
   padding: 80px 20px;
 }
@@ -46,22 +46,23 @@ h1, h2, h3 {
 
 /* Button */
 .btn-primary {
-  background-color: #ff9900; /* Bitcoin orange */
-  color: #fff;
+  background-color: #415a77;
+  color: #e0e1dd;
   padding: 12px 30px;
   border-radius: 8px;
   display: inline-block;
   font-weight: bold;
   transition: background 0.3s ease;
+  animation: pulse 2s infinite;
 }
 
 .btn-primary:hover {
-  background-color: #e68a00; /* Darker orange on hover */
+  background-color: #778da9;
 }
 
 /* Features Section */
 .features {
-  background-color: #0d1b2a; /* Dark background */
+  background-color: #0d1b2a;
   padding: 60px 20px;
   text-align: center;
 }
@@ -74,7 +75,7 @@ h1, h2, h3 {
 }
 
 .feature-card {
-  background-color: #1b263b; /* Dark card background */
+  background-color: #1b263b;
   padding: 30px;
   border-radius: 12px;
   transition: transform 0.3s ease;
@@ -87,12 +88,12 @@ h1, h2, h3 {
 .feature-card i {
   font-size: 40px;
   margin-bottom: 20px;
-  color: #ff9900; /* Bitcoin orange */
+  color: #778da9;
 }
 
 /* Pricing Section */
 .pricing-section {
-  background-color: #1b263b; /* Dark background */
+  background-color: #1b263b;
   padding: 60px 20px;
   text-align: center;
 }
@@ -104,7 +105,7 @@ h1, h2, h3 {
 }
 
 .profit-info span {
-  color: #ff9900; /* Bitcoin orange */
+  color: #778da9;
 }
 
 .pricing-grid {
@@ -116,7 +117,7 @@ h1, h2, h3 {
 }
 
 .plan-card {
-  background-color: #415a77; /* Card background */
+  background-color: #415a77;
   padding: 30px;
   border-radius: 16px;
   width: 100%;
@@ -137,7 +138,7 @@ h1, h2, h3 {
 
 .plan-card .price {
   font-size: 2rem;
-  color: #ff9900; /* Bitcoin orange */
+  color: #e0e1dd;
   margin: 15px 0;
 }
 
@@ -169,14 +170,14 @@ h1, h2, h3 {
 
 /* Featured Plan */
 .featured {
-  background-color: #778da9; /* Featured plan background */
-  border: 2px solid #ff9900; /* Bitcoin orange border */
+  background-color: #778da9;
+  border: 2px solid #e0e1dd;
   box-shadow: 0 0 25px rgba(224, 225, 221, 0.3);
 }
 
 /* Testimonials Section */
 .testimonials {
-  background-color: #0d1b2a; /* Dark background */
+  background-color: #0d1b2a;
   padding: 60px 20px;
   text-align: center;
 }
@@ -190,7 +191,7 @@ h1, h2, h3 {
 }
 
 .testimonial-card {
-  background-color: #1b263b; /* Dark card background */
+  background-color: #1b263b;
   padding: 25px;
   border-radius: 12px;
   width: 300px;
@@ -203,7 +204,7 @@ h1, h2, h3 {
 
 /* Footer */
 .footer {
-  background-color: #1b263b; /* Dark background */
+  background-color: #1b263b;
   padding: 30px 20px;
   text-align: center;
 }
@@ -211,7 +212,7 @@ h1, h2, h3 {
 .socials a {
   margin: 0 10px;
   font-size: 24px;
-  color: #ff9900; /* Bitcoin orange */
+  color: #778da9;
   transition: color 0.3s ease;
 }
 
